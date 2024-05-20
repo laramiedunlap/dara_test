@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my-first-app"
+version = "0.1.0"
+authors =["Laramie"]
+description = ""
+readme = "README.md"
+packages = [{include = "my_first_app"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9.0, <3.12.0"
+dara-core = {version = "^1.9.3", extras = ["all"]}
+scikit-learn = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

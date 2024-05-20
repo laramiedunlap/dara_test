@@ -1,0 +1,15 @@
+{
+  "static_folders": [],
+  "static_files_dir": "C:\\Users\\REVLuser2\\Documents\\dara_test\\my_first_app\\dist",
+  "package_map": {
+    "dara.core": "@darajs/core",
+    "dara.components": "@darajs/components"
+  },
+  "build_config": {
+    "mode": "AUTO_JS",
+    "dev": false,
+    "js_config": null,
+    "npm_registry": null,
+    "npm_token": null
+  }
+}
